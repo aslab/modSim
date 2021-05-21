@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    
+
+
+
+<plugin filename="/home/david/workspace/src/ign-gazebo/examples/plugin/system_plugin/build/libAttachableJoint.so" name="attachable_joint::AttachableJoint">
+    <detachtopic>/box2/detach</detachtopic>
+    <attachtopic>/box2/attach</attachtopic>
+</plugin>
+
+
+
