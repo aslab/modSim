@@ -9,7 +9,7 @@ The main objective of this work is to provide tools to test architectural change
 
 ## Current status [19/05/21] 
 
-Plugin created: __attacher.cc__
+Plugin created: __AttachableJoint.cc__
 -	Creation/destruction of a certain link in a model
 Creation/destruction of a link between two different models trough a string topic with the structure: **[parentModel]** **[ParentLink]** **[ChildModel]** **[ChildLink]** -DONE-
 -	Coupling components: attachable joints to only allow the links between attachable components within a certain distance or in contact -IN PROGRESS-
